@@ -18,5 +18,11 @@
         android:text="To sample form"/>
 
 
+    <Button
+        android:id="@+id/calender_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/move"
+        android:text="Calender dialog"/>
 
 </RelativeLayout>

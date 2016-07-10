@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button mMove;
+    private Button mCalenderBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mMove = (Button) findViewById(R.id.move);
+        mCalenderBtn = (Button) findViewById(R.id.calender_btn);
 
         mMove.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,10 +26,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mCalenderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                moveCalender();
+            }
+        });
+
     }
 
     private void move() {
         startActivity(new Intent(this, Main2Activity.class));
+    }
+
+    private void moveCalender() {
+        startActivity(new Intent(this, CalenderInputActivity.class));
     }
 
 }
