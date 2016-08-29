@@ -26,7 +26,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CalenderInputActivity"
-            android:label="@string/title_activity_calender_input"></activity>
+            android:label="@string/title_activity_calender_input" />
+        <activity android:name=".ui.ViewDragHelperDemoActivity"></activity>
     </application>
 
 </manifest>

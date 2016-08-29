@@ -6,10 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.java_lang_programming.android_material_design_demo.ui.ViewDragHelperDemoActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button mMove;
     private Button mCalenderBtn;
+    private Button mViewDragHelperDemoBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         mMove = (Button) findViewById(R.id.move);
         mCalenderBtn = (Button) findViewById(R.id.calender_btn);
+        mViewDragHelperDemoBtn = (Button) findViewById(R.id.view_drag_helper_demo_btn);
 
         mMove.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +37,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mViewDragHelperDemoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                moveViewDragHelperDemoActivity();
+            }
+        });
+
     }
 
     private void move() {
@@ -43,4 +54,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, CalenderInputActivity.class));
     }
 
+    private void moveViewDragHelperDemoActivity() {
+        startActivity(new Intent(this, ViewDragHelperDemoActivity.class));
+    }
 }
