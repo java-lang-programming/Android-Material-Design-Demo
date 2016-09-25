@@ -27,7 +27,11 @@
         <activity
             android:name=".CalenderInputActivity"
             android:label="@string/title_activity_calender_input" />
-        <activity android:name=".ui.ViewDragHelperDemoActivity"></activity>
+        <activity android:name=".ui.ViewDragHelperDemoActivity" />
+        <activity
+            android:name=".ui.ViewPagerActivity"
+            android:label="@string/title_activity_view_pager"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/move"
-        android:text="Calender dialog"/>
+        android:text="Calender dialog(java7)"/>
 
     <Button
         android:id="@+id/view_drag_helper_demo_btn"
@@ -31,5 +31,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/calender_btn"
         android:text="ViewDragHelperDemo"/>
+
+    <Button
+        android:id="@+id/view_pager_demo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_drag_helper_demo_btn"
+        android:text="ViewPagerActivityDemo"/>
 
 </RelativeLayout>
