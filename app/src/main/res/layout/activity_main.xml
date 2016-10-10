@@ -39,4 +39,11 @@
         android:layout_below="@id/view_drag_helper_demo_btn"
         android:text="ViewPagerActivityDemo"/>
 
+    <Button
+        android:id="@+id/custome_bar_demo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_pager_demo_btn"
+        android:text="CustomeBarActivityDemo"/>
+
 </RelativeLayout>

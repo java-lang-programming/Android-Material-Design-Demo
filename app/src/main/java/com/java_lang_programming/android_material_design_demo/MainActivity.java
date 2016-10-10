@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.java_lang_programming.android_material_design_demo.ui.CustomBarActivity;
 import com.java_lang_programming.android_material_design_demo.ui.ViewDragHelperDemoActivity;
 import com.java_lang_programming.android_material_design_demo.ui.ViewPagerActivity;
 
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mCalenderBtn;
     private Button mViewDragHelperDemoBtn;
     private Button mViewPagerDemoBtn;
+    private Button customeBarDemoBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         mCalenderBtn = (Button) findViewById(R.id.calender_btn);
         mViewDragHelperDemoBtn = (Button) findViewById(R.id.view_drag_helper_demo_btn);
         mViewPagerDemoBtn = (Button) findViewById(R.id.view_pager_demo_btn);
+        customeBarDemoBtn = (Button) findViewById(R.id.custome_bar_demo_btn);
 
         mMove.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         mViewPagerDemoBtn.setOnClickListener(view -> {moveViewPagerActivity();});
+        customeBarDemoBtn.setOnClickListener(view -> {moveCustomBarActivity();});
 
     }
 
@@ -65,5 +69,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void moveViewPagerActivity() {
         startActivity(new Intent(this, ViewPagerActivity.class));
+    }
+
+    private void moveCustomBarActivity() {
+        startActivity(new Intent(this, CustomBarActivity.class));
     }
 }

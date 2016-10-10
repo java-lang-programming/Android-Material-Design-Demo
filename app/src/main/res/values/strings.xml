@@ -17,4 +17,5 @@
     </string>
     <string name="title_activity_calender_input_java8">CalenderInputJava8Activity</string>
     <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="title_activity_custom_bar">CustomBarActivity</string>
 </resources>

@@ -18,6 +18,8 @@ English
 
 [Android Application Development. ViewDragHeleper. Create draggable View.](http://java-lang-programming.com/en/articles/53)
 
+[Android Application Development. Material design. Customize Header.](http://java-lang-programming.com/en/articles/59)
+
 
 日本語
 
@@ -26,6 +28,8 @@ English
 [Androidアプリ開発 Material design Googleカレンダー風のCalendarダイアログを作成する](http://java-lang-programming.com/articles/41)
 
 [Androidアプリ開発 ViewDragHeleper ドラッグ可能なViewを作成する](http://java-lang-programming.com/articles/53)
+
+[Androidアプリ開発 Material design ヘッダーをカスタマイズする](http://java-lang-programming.com/articles/59)
 
 Credits
 ------------

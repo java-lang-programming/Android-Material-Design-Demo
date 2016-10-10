@@ -31,7 +31,11 @@
         <activity
             android:name=".ui.ViewPagerActivity"
             android:label="@string/title_activity_view_pager"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.CustomBarActivity"
+            android:label="@string/title_activity_custom_bar"
+            android:theme="@style/CustomAppTheme"></activity>
     </application>
 
 </manifest>
