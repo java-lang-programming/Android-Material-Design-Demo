@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="red"
+        android:summary="This is red."
+        android:title="red" />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="blue"
+        android:summary="This is blue."
+        android:title="blue" />
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="yellow"
+        android:summary="This is yellow."
+        android:title="yellow" />
+</PreferenceScreen>
