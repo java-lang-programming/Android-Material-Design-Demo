@@ -20,6 +20,10 @@ English
 
 [Android Application Development. Material design. Customize Header.](http://java-lang-programming.com/en/articles/59)
 
+[Android Application Development. Preference. Understand the difference between PreferenceActivity, PreferenceFragment, and PreferenceFragmentCompat.](http://java-lang-programming.com/en/articles/63)
+
+[Android Application Development. Preference. Hide underline.](http://java-lang-programming.com/en/articles/64)
+
 
 日本語
 
@@ -30,6 +34,10 @@ English
 [Androidアプリ開発 ViewDragHeleper ドラッグ可能なViewを作成する](http://java-lang-programming.com/articles/53)
 
 [Androidアプリ開発 Material design ヘッダーをカスタマイズする](http://java-lang-programming.com/articles/59)
+
+[Androidアプリ開発 Preference PreferenceActivity, PreferenceFragment, PreferenceFragmentCompatの違いを理解する](http://java-lang-programming.com/articles/63)
+
+[Androidアプリ開発 Preference 下線を非表示にする](http://java-lang-programming.com/en/articles/64)
 
 Credits
 ------------

@@ -36,7 +36,8 @@
             android:name=".ui.CustomBarActivity"
             android:label="@string/title_activity_custom_bar"
             android:theme="@style/CustomAppTheme" />
-        <activity android:name=".ui.PreferenceDemoActivity"></activity>
+        <activity android:name=".ui.PreferenceDemoActivity" />
+        <activity android:name=".ui.CustomRecyclerViewActivity"></activity>
     </application>
 
 </manifest>
